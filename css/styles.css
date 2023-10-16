@@ -727,6 +727,8 @@ margin-right: 24px;
         0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition:transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 24px;
+    /* 1up */
 }
 
 .modal-btn{
@@ -864,6 +866,10 @@ margin-right: 24px;
 .modal-text:hover{
     border-color: #4D5AE5;
 
+}
+
+.modal-coment-wrap{
+    margin-bottom: 16px;
 }
 
 .modal-comment{
