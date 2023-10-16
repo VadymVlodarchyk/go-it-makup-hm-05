@@ -922,6 +922,9 @@ margin-right: 24px;
 }
 
 .check-text span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 16px;;
     height: 16px;
     border-radius: 2px;
@@ -929,14 +932,9 @@ margin-right: 24px;
     border: 1px rgba(46, 47, 66, 0.40) solid;
     margin-right: 12px;
     fill:transparent;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    
 }
-.modal-check-span{
-    display: inline-flex;
-    /* stvoruv */
-}
+
 
 .check-input:checked + .check-text span{
     background: #404BBF;
