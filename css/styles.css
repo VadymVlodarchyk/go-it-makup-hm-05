@@ -783,6 +783,11 @@ margin-right: 24px;
     margin-bottom: 16px;
 }
 
+.modal-field{
+    margin-bottom: 24px
+    /* stworuw */
+}
+
 .modal-field:not(:last-child){
     margin-bottom:8px;
 }
@@ -854,7 +859,11 @@ margin-right: 24px;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     padding: 8px 16px; 
-    /* 3up */
+    
+}
+.modal-text:hover{
+    border-color: #4D5AE5;
+
 }
 
 .modal-comment{
@@ -869,9 +878,9 @@ margin-right: 24px;
     
 }
 
-.modal-comment:focus,:hover {
+/* .modal-comment:focus,:hover {
     border-color: #4D5AE5;
-}
+} */
 
 .checkbox-container {
     display: flex;
@@ -892,7 +901,9 @@ margin-right: 24px;
 }
 
 .modal-check-span {
-    display: flex;
+    /* display: flex; */
+    display: inline-flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check-icon:{
@@ -940,6 +951,8 @@ margin-right: 24px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
     
 }
