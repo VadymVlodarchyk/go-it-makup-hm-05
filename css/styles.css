@@ -933,6 +933,10 @@ margin-right: 24px;
     align-items: center;
     justify-content: center;
 }
+.modal-check-span{
+    display: inline-flex;
+    /* stvoruv */
+}
 
 .check-input:checked + .check-text span{
     background: #404BBF;
