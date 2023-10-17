@@ -774,7 +774,6 @@ margin-right: 24px;
 .modal-btn:hover .modal-btn-icon{ 
     fill: #FFFFFF;
 }
-m
 
 
 .modal-title{
@@ -804,7 +803,7 @@ m
     padding-left: 38px;
     background-color: inherit;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-   
+
 
 }
 
