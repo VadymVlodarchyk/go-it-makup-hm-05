@@ -826,12 +826,12 @@ margin-right: 24px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     gap: 24px;
-    margin-left: 80px;
 
 }
 
 .modal-input-wrap{
     position: relative;
+    fill: #4D5AE5;
     /* margin-bottom: 16px; */
 }
 
