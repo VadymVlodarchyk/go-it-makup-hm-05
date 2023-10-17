@@ -700,12 +700,7 @@ margin-right: 24px;
 
 
 /* =========================MODAl========================*/
-.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
 
-}
 
 .backdrop{
     position: fixed;
@@ -983,6 +978,12 @@ margin-right: 24px;
     
 }
 
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+}
 
 
 
