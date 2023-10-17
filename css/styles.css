@@ -770,13 +770,11 @@ margin-right: 24px;
 
 }
 
-.modal-btn:focus .modal-btn-icon{ 
+.modal-btn:focus .modal-btn-icon, 
+.modal-btn:hover .modal-btn-icon{ 
     fill: #FFFFFF;
 }
 
-.modal-btn:hover .modal-btn-icon{
-        fill: #FFFFFF;
-}
 
 .modal-title{
     width: 360px;
