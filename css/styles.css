@@ -893,7 +893,7 @@ margin-right: 24px;
     border-color: #4D5AE5;
 }
 
-.checkbox-container {
+.checkbox-container{
     display: flex;
     align-items: center;
     margin-bottom: 24px;
@@ -907,8 +907,6 @@ margin-right: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    /* display: flex; */
-    /* align-items: center; */
     margin-bottom: 16px;
 }
 
