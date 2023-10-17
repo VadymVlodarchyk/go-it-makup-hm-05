@@ -735,6 +735,7 @@ margin-right: 24px;
 
 }
 
+
 .modal-btn{
     display: flex;
     align-items: center;
@@ -811,10 +812,17 @@ margin-right: 24px;
     fill: #4D5AE5;
 }
 
-.modal-input:focus,:hover + .modal-icon{
+/* .modal-input:focus,:hover + .modal-icon{
     fill: #4D5AE5;
     
+} */
+.modal-input:focus,:hover{
+    fill: #4D5AE5;}
+
+.modal-icon:focus{
+    fill: #4D5AE5;
 }
+
 
 .modal-lebel{
     display: block;
@@ -831,8 +839,6 @@ margin-right: 24px;
 
 .modal-input-wrap{
     position: relative;
-    fill: #4D5AE5;
-    /* margin-bottom: 16px; */
 }
 
 .modal-icon{
