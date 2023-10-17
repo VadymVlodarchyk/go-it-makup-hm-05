@@ -907,8 +907,8 @@ margin-right: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     margin-bottom: 16px;
 }
 
@@ -928,7 +928,6 @@ margin-right: 24px;
 }
 
 .check-text span {
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -938,6 +937,7 @@ margin-right: 24px;
     border: 1px rgba(46, 47, 66, 0.40) solid;
     margin-right: 12px;
     fill:transparent;
+    display: inline-flex;
     
 }
 
