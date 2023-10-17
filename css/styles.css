@@ -896,6 +896,7 @@ margin-right: 24px;
 .checkbox-container {
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 
@@ -913,6 +914,7 @@ margin-right: 24px;
 
 .modal-check-span {
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
 }
 
 .modal-check-icon{
@@ -929,7 +931,7 @@ margin-right: 24px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 16px;;
+    width: 16px;
     height: 16px;
     border-radius: 2px;
     overflow: hidden;
