@@ -812,16 +812,11 @@ margin-right: 24px;
     fill: #4D5AE5;
 }
 
-/* .modal-input:focus,:hover + .modal-icon{
+.modal-input:focus,:hover + .modal-icon{
     fill: #4D5AE5;
     
-} */
-.modal-input:focus{
-    fill: #4D5AE5;}
-
-.modal-input:hover {
-    fill: #4D5AE5;
 }
+
 
 
 
