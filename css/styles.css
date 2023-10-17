@@ -637,6 +637,7 @@ margin-right: 24px;
 
 .footer-form{
     display: flex;
+    gap: 24px;
 }
 
 .footer-subcribe-title{
@@ -655,24 +656,25 @@ margin-right: 24px;
     height: 40px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border: 1px white solid;
-    font-size: 12px;
-    font-family: Roboto;
-    font-weight: 400;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding: 8px 212px 8px 16px;
-    color:#FFFFFF;
-    /* background: #2E2F42; */
+    border: 1px solid #ffffff;
     background-color: transparent;
-    margin-left: 80px;
-    
-    
-
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color:#FFFFFF;
+    /* margin-left: 80px; */
+}
+.placeholder{ 
+    color:#ffffff;
 }
 
 .footer-sub-btn{
-    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
     height: 40px;
     color: white;
     font-size: 16px;
@@ -684,11 +686,13 @@ margin-right: 24px;
     border-radius: 4px;
     margin-left: 24px;
     margin-right: 159px;
-    
-
-
+    cursor: pointer:
 }
 
+.foter-btn-icon{
+    margin-left: 16px;
+
+}
 
 
 /* =====================================================*/
@@ -696,6 +700,12 @@ margin-right: 24px;
 
 
 /* =========================MODAl========================*/
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+}
 
 .backdrop{
     position: fixed;
@@ -974,12 +984,7 @@ margin-right: 24px;
 }
 
 
-.is-open{
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-    
-}
+
 
 
 
