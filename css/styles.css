@@ -810,7 +810,7 @@ m
 
 .modal-input:focus, :hover{
     border-color:#4D5AE5;
-    /* fill: #4D5AE5; */
+    fill: #4D5AE5;
 }
 
 .modal-input:focus,:hover + .modal-icon{
