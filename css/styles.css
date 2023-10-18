@@ -802,10 +802,10 @@ margin-right: 24px;
 
 }
 
-/* .modal-input:focus, :hover{
+.modal-input:focus{
     border-color:#4D5AE5;
     fill: #4D5AE5;
-} */
+}
 
 .modal-input:focus,
 .modal-input:hover {
