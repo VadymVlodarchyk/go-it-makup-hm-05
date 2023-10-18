@@ -758,11 +758,6 @@ margin-right: 24px;
     background-color: #404BBF;
     border: none;
 }
-.modal-input:focus,
-.modal-input:hover{
-    background-color: #404BBF;
-        border: none;
-}
 
 
 
@@ -807,9 +802,15 @@ margin-right: 24px;
 
 }
 
-.modal-input:focus, :hover{
+/* .modal-input:focus, :hover{
     border-color:#4D5AE5;
     fill: #4D5AE5;
+} */
+
+.modal-input:focus,
+.modal-input:hover {
+    background-color: #404BBF;
+    border: none;
 }
 
 .modal-input:focus-within + .modal-icon{
