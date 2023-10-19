@@ -806,8 +806,7 @@ margin-right: 24px;
     border-color:#4D5AE5;
     fill: #4D5AE5;
 }
-/* 
-.modal-input:focus, */
+
 .modal-input:hover {
     background-color: #404BBF;
     border: none;
